@@ -23,3 +23,4 @@ __pycache__
 # ignore my testing files
 *.pdf
 *.txt
+!requirements.txt
