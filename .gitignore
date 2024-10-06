@@ -1,0 +1,25 @@
+# ignore the venv
+venv/
+
+# ignore python cache files
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore system-specific files (e.g., macOS)
+.DS_Store
+
+# Ignore any IDE-specific files
+.vscode/
+
+
+# Ignore logs and other temporary files
+*.log
+*.tmp
+
+# Ignore environment-related files
+.env
+
+# ignore my testing files
+pp.pdf
+temp.txt

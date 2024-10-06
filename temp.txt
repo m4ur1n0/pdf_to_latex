@@ -1,0 +1,120 @@
+HOW I MIGHT TYPE UP WORK FOR A PROBLEM EXAMPLE
+b)
+(NOT P ENTAILS Q) AND (Q ENTAILS P) == P
+Law of implication
+(NOT NOT P OR Q) AND (NOT Q OR P) == P
+Double negation
+(P OR Q) AND (NOT Q OR P) == P
+distribution
+((P OR Q) AND NOT Q) OR ((P OR Q) AND P) == P
+negation
+((P AND NOT Q) OR (Q AND NOT Q)) AND ((P AND P) OR (P AND Q)) == P
+Aijfosdsdasdf
+a)
+Parking is allowed on saturday & sunday
+if it is sunday or if it is saturday, then parking is allowed
+P
+Q
+P AND Q
+(P AND Q)
+AND (P OR Q)
+P OR Q
+T
+T
+T
+T
+T
+T
+F
+F
+F
+T
+F
+T
+F
+F
+T
+F
+F
+F
+F
+F
+P
+Q
+R
+Q
+ENTAILS
+R
+P
+ENTAILS
+(Q
+ENTAILS
+R)
+P AND Q
+(P AND
+Q)
+ENTAILS
+R
+T
+T
+T
+T
+T
+T
+T
+T
+T
+F
+F
+F
+T
+F
+T
+F
+T
+T
+T
+F
+T
+T
+F
+F
+T
+T
+F
+T
+F
+T
+T
+T
+T
+F
+T
+F
+T
+F
+F
+T
+F
+T
+F
+F
+T
+T
+T
+F
+T
+F
+F
+F
+T
+T
+F
+T
+TABLE{
+P-Q-R-(Q ENTAILS R)-P ENTAILS (Q ENTAILS R)-
+}
+Let’s see how it handles some of this stuff….
+NEWPAGE
+And then a new page here…….. (how do we tell organic newpage from inorganic?)
+Oops should’ve written something after the image….
