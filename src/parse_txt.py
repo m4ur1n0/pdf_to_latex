@@ -1,8 +1,10 @@
 
 # create a set of stand ins to optimize the 'in' operation
-stand_ins = {'ENTAILS','>>','->','BICONDITIONS','<>','<->','EQUIV','==','NOT','!','~','AND','&&','^','||','XOR','FOREACH','FORALL','EXISTS','EXISTS!','DOMAIN','DD','PROVES','TURNSTILE','|-','TTPROVES','DTURNSTILE','|=','THEREFORE','BECAUSE','DEFINED'}
+stand_ins = {'ENTAILS','>>','->','BICONDITIONS','<>','<->','EQUIV','==','NOT','!','~','AND','&&','^','||','XOR','FOREACH','FORALL','EXISTS','EXISTS!','DOMAIN','DD','PROVES','TURNSTILE','|-','TTPROVES','DTURNSTILE','|=','THEREFORE','BECAUSE','DEFINED', 'OR'}
 # latex_code = ['\\rightarrow','\\rightarrow','\\rightarrow','\\leftrightarrow','\\leftrightarrow','\\leftrightarrow','\\equiv','\\equiv','\\neg','\\neg','\\neg','\\land','\\land','\\land','\\lor','\\oplus','\\forall','\\forall','\\mathbb{d}','\\mathbb{d}','\\vdash','\\vdash','\\vdash','\\vDash','\\vDash','\\vDash','\\therefore','\\because','\\:=']
-symbol_dict = {'ENTAILS':'\\rightarrow','>>':'\\rightarrow','->':'\\rightarrow','BICONDITIONS':'\\leftrightarrow','<>':'\\leftrightarrow','<->':'\\leftrightarrow','EQUIV':'\\equiv','==':'\\equiv','NOT':'\\neg','!':'\\neg','~':'\\neg','AND':'\\land','&&':'\\land','^':'\\land','||':'\\lor','XOR':'\\oplus','FOREACH':'\\forall','FORALL':'\\forall','EXISTS':'\\mathbb{d}','EXISTS!':'\\mathbb{d}','DOMAIN':'\\vdash','DD':'\\vdash','PROVES':'\\vdash','TURNSTILE':'\\vDash','|-':'\\vDash','TTPROVES':'\\vDash','DTURNSTILE':'\\therefore','|=':'\\because','THEREFORE':':='}
+symbol_dict = {'ENTAILS':'\\rightarrow','>>':'\\rightarrow','->':'\\rightarrow','BICONDITIONS':'\\leftrightarrow','<>':'\\leftrightarrow','<->':'\\leftrightarrow','EQUIV':'\\equiv','==':'\\equiv','NOT':'\\neg','!':'\\neg','~':'\\neg','AND':'\\land','&&':'\\land','^':'\\land', 'OR' : '\\lor', '||':'\\lor','XOR':'\\oplus','FOREACH':'\\forall','FORALL':'\\forall',
+               'EXISTS': '\\exists', 'EXISTS!':'\\exists !','DOMAIN': '\\mathbb{d}','DD':'\\mathbb{d}','PROVES':'\\vdash','TURNSTILE':'\\vdash','|-':'\\vdash','TTPROVES':'\\vDash','DTURNSTILE': '\\vDash', '|=' : '\\vDash', 'THEREFORE' : '\\therefore', 'BECAUSE' : '\\because', 'DEFINED' : ':='}
+
 
 def evaluate_word(word):
     if word in stand_ins:
