@@ -23,4 +23,5 @@ __pycache__
 # ignore my testing files
 *.pdf
 *.txt
+cutting_room_floor.py
 !requirements.txt
